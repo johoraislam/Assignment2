@@ -1,4 +1,8 @@
  /*nav style start*/
+ body{
+    padding-left: 120px;
+    padding-right: 120px;
+ }
  
  header{
     padding: 50px 130px;
@@ -314,3 +318,152 @@ line-height: normal;
     justify-content: center;
     margin-top: 14px;
 }
+
+/*news section*/
+.news-sec{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 5px;
+
+}
+.news-in{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+}
+.btn-2{
+    width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+}
+hr{
+    width: 394px;
+}
+.news-div{
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+.img-news{
+    position: absolute;
+    width: 672px;
+    height: 422px;
+}
+.btn-news{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    position: relative;
+    bottom: 10px;
+    right: 10px;
+}
+
+footer{
+    text-align: center;
+    margin: 100px;
+}
+.footer-titel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+/* ... other styles ... */
+
+/* Media Queries for responsiveness */
+
+/* Small screens (e.g., mobile phones) */
+@media only screen and (max-width: 767px) {
+    body {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    header {
+        padding: 20px;
+    }
+
+    .nav-titel {
+        font-size: 24px;
+    }
+
+    .nav-pri,
+    .home,
+    nav li {
+        font-size: 24px;
+    }
+
+    .banner {
+        height: 300px;
+    }
+
+    .banner-text > h1 {
+        font-size: 36px;
+    }
+
+    .banner-text > p {
+        width: 100%;
+    }
+
+    .type-input > input {
+        height: 40px;
+    }
+
+    .tour {
+        font-size: 30px;
+    }
+
+    .btn-one {
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .destination-grid {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .card-1,
+    .card-2,
+    .card-3 {
+        width: 100%;
+        height: auto;
+    }
+
+    .news-sec {
+        flex-direction: column;
+    }
+
+    .news-in,
+    .btn-2,
+    hr {
+        width: 100%;
+    }
+
+    .img-news {
+        width: 100%;
+        height: auto;
+    }
+
+    .btn-news {
+        width: 100%;
+    }
+}
+
+/* Medium screens (e.g., tablets) */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+   
+}
+
+
