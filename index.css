@@ -50,6 +50,7 @@ nav li a{
 .banner{
    
     background-image: url("./Images/banner.png");
+    border-radius: 16px;
     height: 500px;
     width: 100%;
     background-repeat: no-repeat;
@@ -68,11 +69,14 @@ nav li a{
 .banner-text>h1{
     font-size: 64px;
 }
+.banner-text>p{
+    width: 576px;
+}
 .type-input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 10px;
-}
+    }
 .type-input>input{
   height: 45px;
   border-radius: 5px;
@@ -82,6 +86,18 @@ nav li a{
 
 
 /*main style*/
+.tour{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.paragraf-description>ul>li{
+    color: #131318;
+}
 .btn-one{
     background-color: #FF5400;
     color: #FFF;
@@ -110,4 +126,191 @@ nav li a{
 }
 li{
     margin-top: 17px;
+}
+ /* section destination2 style*/
+ 
+ .destination-div{
+    text-align: center;
+ }
+ 
+ 
+ .destination-head{
+    color: #131318;
+text-align: center;
+font-family: Mulish;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+ }
+ /*image sectiom style start*/
+ .div-1{
+    display: flex;
+    background-image: url(Images/maldivs.png);
+     background-repeat: no-repeat;
+    width: 573px;
+    height: 300px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+
+ }
+ 
+ .div-2{
+    background-image: url(Images/indo.png);
+    background-repeat: no-repeat;
+    display: flex;
+    width: 573px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+ .div-3{
+    background-image: url(Images/srilanka.png);
+    display: flex;
+    background-repeat: no-repeat;
+     width: 374px;
+     height: 286px;
+     flex-shrink: 0;
+     color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+ .div-4{
+    background-image: url(Images/america.png);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 474px;
+    height: 286px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+ .div-5{
+    background-image: url(Images/kasmir.png);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 274px;
+    height: 286px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+ .div-6{
+    background-image: url(Images/bangladesh.png);
+    display: flex;
+    background-repeat: no-repeat;
+    width: 473px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+ .div-7{
+    background-image: url(Images/bandarban.png);
+    display: flex;
+    background-repeat: no-repeat ;
+    width: 673px;
+    height: 300px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 28px;
+    font-weight: 800;
+    align-items: center;
+    justify-content: center;
+ }
+.destination-flex{
+    display: flex;
+    gap: 10px;
+    
+    }
+.destination-grid{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+.destination-3colum{
+   display: flex;
+   gap: 10px;
+   }
+/*choose section style*/
+.choose-div{
+    text-align: center;
+    color: rgba(19, 19, 24, 0.70);
+     font-family: Mulish;
+     font-size: 16px;
+     font-weight: 400;
+     line-height: 26px;      
+}
+.choose-h1{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.card-1{
+     width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(251, 181, 99, 0.20);
+     background: rgba(251, 181, 99, 0.05);
+     padding: 17px;
+}
+.card-2{
+    width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(41, 206, 246, 0.20);
+     background: rgba(41, 206, 246, 0.05);
+     padding: 17px;
+}
+.card-3{
+    width: 573px;
+     height: 284px;
+     flex-shrink: 0;
+     border-radius: 16px;
+     border: 1px solid rgba(233, 68, 68, 0.20);
+     background: rgba(233, 68, 68, 0.05);
+     padding: 17px;
+}
+.card1-par{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.card3-par{
+    display: flex;
+    justify-content: center;
+    margin-top: 14px;
 }
